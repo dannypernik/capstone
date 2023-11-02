@@ -6662,7 +6662,7 @@ html {
 body {
   height: 100%;
   font-family: "Montserrat", "Helvetica", sans-serif;
-  color: #1C4D65;
+  color: #239700;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
@@ -6715,11 +6715,11 @@ h6, .h6 {
 a {
   display: inline-block;
   text-decoration: none;
-  color: #2aa5a0;
+  color: #011a01;
   transition: all 0.2s ease-in-out;
 }
 a:hover {
-  color: #4ad1cc;
+  color: #046404;
 }
 a:before {
   display: block;
@@ -6740,16 +6740,16 @@ button, .btn, input[type=submit] {
   display: block;
   margin: 2rem auto;
   padding: 1rem 2rem;
-  background-color: #1C4D65;
-  border: 2px solid #1C4D65;
+  background-color: #239700;
+  border: 2px solid #239700;
   color: white;
   transition: 0.3s;
   font-size: 1.7rem;
   font-weight: 600;
 }
 button:hover, .btn:hover, input[type=submit]:hover {
-  background-color: #4ad1cc;
-  border-color: #4ad1cc;
+  background-color: #046404;
+  border-color: #046404;
   color: white;
 }
 button .btn.clr, .btn .btn.clr, input[type=submit] .btn.clr {
@@ -6757,8 +6757,8 @@ button .btn.clr, .btn .btn.clr, input[type=submit] .btn.clr {
   border-color: white;
 }
 button .btn.sec, .btn .btn.sec, input[type=submit] .btn.sec {
-  color: #1C4D65;
-  border-color: #1C4D65;
+  color: #239700;
+  border-color: #239700;
   background-color: transparent;
   font-weight: 400;
   width: fit-content;
@@ -6802,10 +6802,10 @@ input, textarea {
   border-bottom: 1px solid #999;
   width: 100%;
   outline: none;
-  color: #1C4D65;
+  color: #239700;
 }
 input:focus, textarea:focus {
-  border-bottom: 1px solid #1C4D65;
+  border-bottom: 1px solid #239700;
 }
 
 input[type=checkbox] {
@@ -6827,11 +6827,11 @@ input[type=checkbox] + label::before {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  border: 2px solid #1C4D65;
+  border: 2px solid #239700;
   border-radius: 3px;
 }
 input[type=checkbox]:checked + label::before {
-  background-color: #1C4D65;
+  background-color: #239700;
 }
 input[type=checkbox]:checked + label::after {
   content: "";
@@ -6845,7 +6845,7 @@ input[type=checkbox]:checked + label::after {
   transform: rotate(-45deg);
 }
 input[type=checkbox]:focus + label::before {
-  box-shadow: 0 0px 8px #1C4D65;
+  box-shadow: 0 0px 8px #239700;
 }
 
 input[type=radio] {
@@ -6867,7 +6867,7 @@ input[type=radio] + label::before {
   width: 2rem;
   height: 2rem;
   background: transparent;
-  border: 2px solid #1C4D65;
+  border: 2px solid #239700;
   border-radius: 50%;
 }
 input[type=radio] + label::after {
@@ -6881,10 +6881,10 @@ input[type=radio] + label::after {
   height: 1rem;
 }
 input[type=radio]:checked + label::after {
-  background: #1C4D65;
+  background: #239700;
 }
 input[type=radio]:focus + label::before {
-  box-shadow: 0 0px 8px #1C4D65;
+  box-shadow: 0 0px 8px #239700;
 }
 
 .radio-wrapper {
@@ -6900,8 +6900,8 @@ input[type=radio]:focus + label::before {
 }
 
 select {
-  color: #1C4D65;
-  border: 2px solid #1C4D65;
+  color: #239700;
+  border: 2px solid #239700;
   border-radius: 10px;
   padding: 0.5rem 1rem;
 }
@@ -6915,14 +6915,6 @@ select {
 .inverse a:hover, .inverse a:hover h2, .inverse a:hover .h2 {
   font-weight: 600;
   color: white;
-}
-.inverse button, .inverse .btn, .inverse input[type=submit] {
-  background-color: #4ad1cc;
-  border-color: #4ad1cc;
-}
-.inverse button:hover, .inverse .btn:hover, .inverse input[type=submit]:hover {
-  background-color: #2aa5a0;
-  border-color: #2aa5a0;
 }
 
 .img-fluid {
@@ -6963,8 +6955,8 @@ div.message a {
   position: sticky;
   top: 0;
   border: none;
-  border-bottom: 1px solid #1C4D65;
-  background-color: #1C4D65;
+  border-bottom: 1px solid #239700;
+  background-color: #239700;
   z-index: 100;
 }
 
@@ -7002,12 +6994,12 @@ div.message a {
 .menu-link {
   height: 60px;
   border-bottom: 1px solid white;
-  color: #1C4D65;
+  color: #239700;
   transition: 0.3s;
 }
 .menu-link:hover {
-  background-color: #4ad1cc;
-  border-color: #4ad1cc;
+  background-color: #046404;
+  border-color: #046404;
   color: white;
 }
 .menu-link p {
@@ -7020,13 +7012,13 @@ div.message a {
   width: 100%;
   bottom: 0;
   padding: 20px;
-  background-color: #1C4D65;
+  background-color: #239700;
   color: white;
   margin-top: 11rem;
 }
 
 #home-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/simon-berger-twukN12EN7c-unsplash.jpg) center bottom no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../img/bg.jpg) center bottom no-repeat;
 }
 
 #home-3 {
