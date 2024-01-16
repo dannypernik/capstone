@@ -7085,12 +7085,19 @@ div.message a {
 
 .home-next {
   display: table;
-  margin: calc(2rem + 1vw) auto 3rem;
+  margin: calc(2rem + 1vw) auto 0;
   text-align: center;
 }
 
 .bi-chevron-down {
   font-size: 1rem;
+}
+
+hr {
+  height: 3px;
+  background-color: #046404;
+  border: none;
+  margin: 6rem 10rem 0rem 10rem;
 }
 
 .profile-img {
