@@ -64,7 +64,7 @@
 
     {% block footer %}
       <footer class="footer row pb-4 pt-3 justify-content-center align-content-between
-      align-items-end">
+      align-items-end inverse">
         <div class="col-11 col-md-4">
           <table>
             <tr>
@@ -82,24 +82,9 @@
                 <a class="white" href="mailto:blake@appamadaschool.com" target="_blank">blake@appamadaschool.com</a>
               </td>
             </tr>
-            <tr class="d-md-none">
-              <td>
-                <span class="me-2"><img width="25" height="25" src="{{ url_for('static',
-                filename='img/creatorsweb.svg') }}" alt=""></span>
-              </td>
-              <td>
-                Designed in collaboration with <a id="creatorsweb"
-                href="https://creatorsweb.co" target="_blank">Creators Web</a>
-              </td>
-            </tr>
           </table>
         </div>
-          
         <div class="d-none d-md-block col-11 col-md-7 text-md-end mt-2">
-          <span class="me-2"><img width="25" height="25" src="{{ url_for('static',
-          filename='img/creatorsweb.svg') }}" alt=""></span><span>Designed in
-          collaboration with <a id="creatorsweb" href="https://creatorsweb.co"
-          target="_blank">Creators Web</a></span>
         </div>
       </footer>
     {% endblock footer %}
