@@ -7083,6 +7083,9 @@ div.message a {
   overflow: auto;
   padding-top: calc(3rem + 2vw);
 }
+.home-section h1, .home-section .h1 {
+  text-align: center;
+}
 .home-section.end {
   min-height: calc(100vh - 30rem);
 }

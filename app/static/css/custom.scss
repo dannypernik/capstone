@@ -509,6 +509,10 @@ div.message {
   overflow: auto;
   padding-top: calc(3rem + 2vw);
 
+  h1 {
+    text-align: center;
+  }
+  
   &.end {
     min-height: calc(100vh - 30rem);
   }
