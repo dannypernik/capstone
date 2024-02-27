@@ -324,6 +324,10 @@ select {
     &:hover, &:hover h2 {
       font-weight: 600;
       color: white;
+      text-decoration: underline;
+    }
+    &.btn {
+      text-decoration: none;
     }
   }
 
@@ -505,6 +509,10 @@ div.message {
   overflow: auto;
   padding-top: calc(3rem + 2vw);
 
+  h1 {
+    text-align: center;
+  }
+  
   &.end {
     min-height: calc(100vh - 30rem);
   }

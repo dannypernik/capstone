@@ -6915,6 +6915,10 @@ select {
 .inverse a:hover, .inverse a:hover h2, .inverse a:hover .h2 {
   font-weight: 600;
   color: white;
+  text-decoration: underline;
+}
+.inverse a.btn {
+  text-decoration: none;
 }
 
 .img-fluid {
@@ -7078,6 +7082,9 @@ div.message a {
   min-height: 100vh;
   overflow: auto;
   padding-top: calc(3rem + 2vw);
+}
+.home-section h1, .home-section .h1 {
+  text-align: center;
 }
 .home-section.end {
   min-height: calc(100vh - 30rem);
