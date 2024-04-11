@@ -38,6 +38,8 @@ def admin_required(f):
             return redirect(login_url('signin', next_url=request.url))
     return wrap
 
+email = app.config['MAIL_USERNAME']
+
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -58,7 +60,7 @@ def index():
             return redirect(url_for('index', _anchor="home"))
         else:
             flash('Email failed to send, please contact ' + hello, 'error')
-    return render_template('index.html', form=form)
+    return render_template('index.html', form=form, email=email)
 
 
 @app.route('/signin', methods=['GET', 'POST'])
@@ -335,7 +337,7 @@ def TemplateRenderer(app):
         @app.route('/' + name, endpoint=endpoint)
         def route_handler():
             title = name.replace('-', ' ').capitalize()
-            return render_template(name + '.html', title=title)
+            return render_template(name + '.html', title=title, email=email)
     return register_template_endpoint
 
 endpoints = []
